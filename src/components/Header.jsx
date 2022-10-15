@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "react-bootstrap/Image";
-import logo from "../assets/react.svg";
+import logo from "../assets/logo.png";
 
 const Header = () => {
   return (
