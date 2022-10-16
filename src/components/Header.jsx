@@ -5,7 +5,7 @@ import logo from "../assets/logo.png";
 const Header = () => {
   return (
     <>
-      <Image fluid src={logo} width="250px"></Image>
+      <Image fluid src={logo}></Image>
     </>
   );
 };

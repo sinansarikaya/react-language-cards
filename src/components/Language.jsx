@@ -12,8 +12,8 @@ const Language = ({ name, img, options }) => {
     >
       {showImage && (
         <div>
-          <Image className="lang-logo" src={img} width="70%"></Image>
-          <h3 className="display-6">{name}</h3>
+          <Image className="lang-logo" src={img} width="50%"></Image>
+          <h3 className="h3">{name}</h3>
         </div>
       )}
 
@@ -21,7 +21,7 @@ const Language = ({ name, img, options }) => {
         <ol className="h-100 d-flex flex-column justify-content-center">
           {options.map((item, i) => {
             return (
-              <li key={i} className="h5 text-start">
+              <li key={i} className="h6 text-start">
                 {item}
               </li>
             );

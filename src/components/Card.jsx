@@ -5,7 +5,7 @@ import { data } from "../helpers/data";
 
 const Card = () => {
   return (
-    <Container className="container rounded-4">
+    <Container className="rounded-4 mb-5">
       <h1>Languages</h1>
       <Row className="g-3 justify-content-center">
         {data.map((item, i) => {
